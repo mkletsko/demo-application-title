@@ -9,7 +9,7 @@ App = (function(){
     (function () {
         var xhr = new XMLHttpRequest();
 
-        xhr.open('GET', 'http://cm.mmi.macc.com.ua/tests/sample.php', false);
+        xhr.open('GET', 'http://cm.mmi.macc.com.ua/tests/sample.json', false);
         xhr.send();
 
         if (xhr.status != 200) {
